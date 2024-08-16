@@ -1,0 +1,388 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+header{
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+
+}
+.logo{
+    margin: 20px 100px;
+    
+
+}
+.nav{
+  display: flex;
+   justify-content: flex-end;
+   position: relative;
+   
+
+}
+
+.nav ul{
+    
+    margin-top: -48px;
+    margin-right: 300px;
+    
+    
+
+}
+.nav ul li{
+    float: left;
+    padding: 2px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.nav ul li:hover{
+    color: #7f97ff;
+}
+
+.main{
+    justify-content: space-between;
+    background-color: #f9f9ff;
+    display: flex;
+    width: 100%;
+    height: 680px;
+    padding-top: 200px;
+
+}
+.text{
+    
+    margin: 150px;
+}
+.this{
+    font-size: 16px;
+    word-spacing: 2px;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h1{
+    text-transform: uppercase;
+    color: #222222;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button{
+   background-color:#7f97ff;
+    border: none;
+    font-size: 16px;
+    color: #f9f9ff;
+    padding: 15px;
+    border-radius: 4px;
+    
+    cursor: pointer;
+
+
+}
+.lorem{
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    color: #222222;
+}
+.image1{
+    float: left;
+    margin-right: 300px;
+    height: 483px;
+    width: 616px;
+}
+.button:hover{
+    box-shadow: 0px 5px 10px gray;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 620px;
+}
+.image2{
+    width: 40%;
+}
+
+.image2 .about{
+    margin: 0 auto;
+    align-items: center;
+    
+    
+}
+
+.image2{
+    padding-left: 0px;
+
+}
+.about{
+    padding-left: 0px;
+}
+
+.about h3{
+    text-transform: uppercase;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+
+}
+.about p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #222222;
+    text-align: left;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.main3{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.main3 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #222222;
+    width: 500px;
+    margin: 0 auto;
+}
+.servicem1{
+    height: 400px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-weight: 200;
+    
+
+}
+
+.servicem2{
+    height: 400px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-weight: 200;
+    
+
+}
+.servicem1 i{
+    font-size: 30px;
+    
+}  
+.servicem2 i{
+    font-size: 30px;
+}  
+.servie1:hover{
+    box-shadow: 0px 5px 10px gray; 
+}
+.servie2:hover{
+    box-shadow: 0px 5px 10px gray; 
+}
+.servie3:hover{
+    box-shadow: 0px 5px 10px gray; 
+    
+}
+.servie1 :hover{
+    color:#7f97ff
+    
+}
+.servie2 :hover{
+    color:#7f97ff
+    
+}
+.servie3 :hover{
+    color:#7f97ff
+    
+}
+
+/*Main4 start*/
+.main4{
+ height: 200px;
+ width: 100%;
+ background-color: #7f97ff;
+ font-size: 20px;
+ color: white;
+font-family: "Poppins", sans-serif;
+}
+.main4 div{
+    text-align: center;
+    float: left;
+    padding: 40px;
+    left: 500px;
+    position: relative;
+}
+
+/*Main4 Closed*/
+
+/*Main5 Start*/
+.new1{
+    height: 300px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hd h1{
+ text-align: center;
+ text-transform: capitalize;
+}
+.hd p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #222222;
+}
+
+.system{
+    height: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.imgg{
+    text-align: center;
+}
+.imgg h1{
+    font-size: 18px;
+}
+.imgg figure{
+    background: linear-gradient(40deg, #7f97ff 40%, #62bdff 100% );
+    border-radius: 3%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.imgg figure:hover img{
+    opacity: 0.3;
+    transition: all 0.3s ease-in;
+}
+
+
+/*Main5 start*/
+
+.plan{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card{
+    display: flex;
+    height: 600px;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9ff;
+    margin-left:250px ;
+    margin-top: 150px;
+   
+}
+.card1{
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #222222;
+    box-sizing: border-box;
+    /*
+    border: 1px solid gray;
+    */
+    border-collapse: separate;
+    margin: 10px;
+    border-radius: 4px;
+}
+.card1 hr{
+    opacity: 0.3;
+}
+
+.card1:hover{
+    background: linear-gradient(40deg, #7f97ff 40%, #62bdff 100% );
+    box-shadow: 0px 5px 10px #222222;
+    transition: all 0.25s ease-in;
+    transition-delay: .10s;
+    transform: scale(1.02);
+}
+.card1:hover .button{
+    background-color: #f9f9ff;
+    color: #222222;
+}
+
+
+/*Footer Start*/
+
+.foot{
+    margin-top: 150px;
+    bottom: 0;
+    background-color: #04091e;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    color: #fff;
+    justify-content: space-around;
+}
+.foot1{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 50px;
+    
+
+}
+
+.foot1 h1{
+    color: #fff;
+}
+
+.foot1 p{
+    width: 400px;
+    font-size: 14px;
+}
+.foot1 .btn{
+    height: 30px;
+    width: 400px;
+    border: none;
+    
+}
+.foot .button{
+    padding: 8px;
+}
+.foot1 i{
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+}
+/*Footer End*/
+# project
